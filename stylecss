@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Kaputama</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: rgba(127, 255, 212, 0.63);(25, 66, 104);
+
+            }
+            h1{
+                color: aliceblue;
+        margin-left: 80px;
+        margin-top: 20px;
+
+        font-size: 40px;
+        padding-top: 10px;
+            }
+            h2 {
+                color: aliceblue;
+                margin-left: 80px;
+                margin-top: 5px;
+                font-size: 15px;
+                width: 100px;
+                background-color: blue(13, 202, 240);
+                box-sizing: border-box;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                padding-bottom:4.2px;
+                padding-left:7.8px;
+                padding-top: 3px;
+            }
+            .text1 {
+                color: aliceblue;
+                font-size: 18px;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+            .text2 {
+                color: blue(5, 92, 102);
+                background-color: aqua(191, 229, 238);
+                margin: 16px 50px 8px;
+                height: 60px;
+                width: 1300px;
+                box-sizing: border-box;
+                margin-bottom: 50px;
+                padding-bottom: 16px;
+                padding-top: 19px;
+                padding-left: 16px;
+                padding-right: 16px;
+                border-radius: 5px;
+                margin-left: 80px;
+                font-size: 20px;
+            }
+            .isi {
+                background-color: beige(255, 255, 255);
+                background-size: cover;
+                position: absolute;
+                width: 1520px;
+
+            }
+            .atas {
+                color: blue(8, 121, 144);
+                background-color: aquamarine(207, 244, 252);
+                margin-top: 50px;
+                margin-right: 60px;
+                margin-left: 60px;
+                padding-left: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            table {
+                margin-top: 30px;
+                margin-left: 60px;
+
+            }
+            tr {
+                font-size: 10px;
+            }
+            #nik {
+                height: 30px;
+                margin-top: 10px;
+                margin-right: 22px;
+                margin-bottom: 40px;
+            }
+            #nama {
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #tempat {
+                height: 30px;
+                width: 450px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                margin-right: 20px;
+            }
+            #tanggal {
+                height: 30px;
+                width: 850px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                padding-left: 10px;
+                font-size: 15px;
+            }
+            #cwok {
+                margin-right: 20px;
+                margin-bottom: 40px;
+                margin-top: 10px;
+            }
+            #cwek {
+                margin-left: 100px;
+                margin-right: 20px;
+            }
+            #ya {
+                margin-right: 20px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #tidak {
+                margin-left: 100px;
+                margin-right: 20px;
+            }
+            #r1 {
+                margin-top: 10px;
+                margin-right: 20px;
+                margin-bottom: 40px;
+
+            }
+            #r2 {
+                margin-left: 200px;
+                margin-right: 15px;
+            }
+            select {
+                margin-top: 10px;
+                width: 650px;
+                height: 35px;
+                margin-bottom: 40px;
+                margin-right: 27px;
+            }
+            #alamat {
+                margin-top: 10px;
+                margin-bottom: 40px;
+                height: 80px;
+                width: 1330px;
+            }
+            #t1 {
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #t2 {
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #rt {
+                height: 30px;
+                width: 200px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+                margin-right: 20px;
+            }
+            #jalan {
+                height: 30px;
+                width: 630px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #mail {
+                height: 30px;
+                margin-top: 10px;
+                width: 630px;
+                margin-bottom: 40px;
+                margin-left:680px;
+            }
+            #sk {
+                height: 30px;
+                width: 1300px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #ns {
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #al {
+                height: 60px;
+                width: 630px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            #p1 {
+                margin-top: 10px;
+                margin-bottom: 40px;
+                margin-right: 10px;
+            }
+            #p2 {
+                margin-left: 80px;
+                margin-right: 10px;
+            }
+            #tr1{
+                margin-top: 10px;
+                margin-bottom: 40px;
+                margin-right: 10px;
+            }
+            #tr2 {
+                margin-left: 230px;
+                margin-right: 10px;
+            }
+            #pk1 {
+                margin-top: 10px;
+                margin-bottom: 40px;
+                margin-right: 10px;
+            }
+            #pk2 {
+                margin-left: 200px;
+                margin-right: 10px;
+            }
+            #pk3 {
+                margin-left: 170px;
+                margin-right: 10px;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+
+            }
+            .bar {
+                background-color: aqua(207, 224, 252);
+                padding: 10px;
+                width: 1330px;
+                margin-bottom: 30px;
+                margin-top: 30px;
+                height: 50px;
+                margin-left: 60px;
+            }
+            .text {
+                float: left;
+                color: aqua(8, 121, 144);
+                font-size: 20px;
+                margin-top: 5px;
+                margin-left: 15px;
+            }
+            button {
+                float: right;
+                margin-top: 11px;
+                background-color: aliceblue(0, 255, 34);
+                color: brown(230, 10, 10);
+                height: 30px;
+                border-radius: 20px solid blue;
+                width: 70px;
+                cursor: pointer;
+            }
+
+
+            #table {
+                margin-right: 60px;
+            }
+            #ad {
+                margin-top: 10px;
+                height: 30px;
+                margin-bottom: 40px;
+            }
+            #down {
+                margin-top: 10px;
+                height: 30px;
+                margin-bottom: 100px;
+            }
+            #ms1 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+            }
+            #ms2 {
+                margin-left: 150px;
+                margin-right: 10px;
+            }
+            #lain {
+                height: 30px;
+                width: 1350px;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+
+
+            form {
+                margin-top: 20px;
+                margin-left: 60px;
+            }
+            #submitButton {
+                float: left;
+                margin-bottom: 50px;
+            }
+
+            #btn-back{
+                background-color: #e1ab0b;
+                font-size: 20px;
+                border-radius: 6px;
+                padding-left: 13px;
+                padding-right: 13px;
+                padding-bottom: 13px;
+                padding-top: 10px;
+                margin-left: 80px;
+
+            }
+
+            a{
+                background-color: black;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 5px;
+            }
+
+            a:visited{
+                color: crimson;
+            }
+
+            th{
+                background-color: burlywood;
+            }
+
+            h1:hover{
+                color: darkcyan;
+                border: 4px dotted blue;
+            }
+
+        </style>
+    </head>
+<body>
